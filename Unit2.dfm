@@ -2,7 +2,7 @@ object Accounting: TAccounting
   Left = 0
   Top = 0
   Caption = 'Accounting'
-  ClientHeight = 611
+  ClientHeight = 591
   ClientWidth = 1126
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -190,7 +190,7 @@ object Accounting: TAccounting
     Left = 0
     Top = 0
     Width = 1126
-    Height = 611
+    Height = 591
     Margins.Left = 4
     Margins.Top = 4
     Margins.Right = 4
@@ -219,7 +219,7 @@ object Accounting: TAccounting
       Left = 1
       Top = 1
       Width = 1124
-      Height = 609
+      Height = 589
       Margins.Left = 4
       Margins.Top = 4
       Margins.Right = 4
@@ -234,7 +234,6 @@ object Accounting: TAccounting
       ParentFont = False
       Style = tsFlatButtons
       TabOrder = 0
-      ExplicitHeight = 629
       object TabSheet1: TTabSheet
         Margins.Left = 4
         Margins.Top = 4
@@ -247,12 +246,11 @@ object Accounting: TAccounting
         Font.Name = 'Tahoma'
         Font.Style = [fsBold]
         ParentFont = False
-        ExplicitHeight = 595
         object GridPanel1: TGridPanel
           Left = 0
           Top = 0
           Width = 1116
-          Height = 575
+          Height = 555
           Margins.Left = 4
           Margins.Top = 4
           Margins.Right = 4
@@ -404,13 +402,12 @@ object Accounting: TAccounting
             end>
           ShowCaption = False
           TabOrder = 0
-          ExplicitHeight = 595
           DesignSize = (
             1108
-            567)
+            547)
           object Label1: TLabel
             Left = 38
-            Top = 17
+            Top = 16
             Width = 84
             Height = 16
             Margins.Left = 4
@@ -430,7 +427,7 @@ object Accounting: TAccounting
           end
           object Label2: TLabel
             Left = 38
-            Top = 63
+            Top = 60
             Width = 84
             Height = 16
             Margins.Left = 4
@@ -450,7 +447,7 @@ object Accounting: TAccounting
           end
           object Label3: TLabel
             Left = 57
-            Top = 109
+            Top = 104
             Width = 46
             Height = 16
             Margins.Left = 4
@@ -471,7 +468,7 @@ object Accounting: TAccounting
           end
           object Label4: TLabel
             Left = 35
-            Top = 153
+            Top = 146
             Width = 90
             Height = 16
             Margins.Left = 4
@@ -490,7 +487,7 @@ object Accounting: TAccounting
           end
           object Edit4: TEdit
             Left = 166
-            Top = 105
+            Top = 100
             Width = 175
             Height = 24
             Margins.Left = 4
@@ -500,11 +497,10 @@ object Accounting: TAccounting
             Anchors = []
             TabOrder = 0
             Text = 'Edit2'
-            ExplicitTop = 108
           end
           object Edit5: TEdit
             Left = 166
-            Top = 149
+            Top = 142
             Width = 175
             Height = 24
             Margins.Left = 4
@@ -514,11 +510,10 @@ object Accounting: TAccounting
             Anchors = []
             TabOrder = 1
             Text = 'Edit2'
-            ExplicitTop = 154
           end
           object Label5: TLabel
             Left = 399
-            Top = 109
+            Top = 104
             Width = 87
             Height = 16
             Margins.Left = 4
@@ -539,7 +534,7 @@ object Accounting: TAccounting
           end
           object Label6: TLabel
             Left = 407
-            Top = 153
+            Top = 146
             Width = 71
             Height = 16
             Margins.Left = 4
@@ -560,7 +555,7 @@ object Accounting: TAccounting
           end
           object DateTimePicker1: TDateTimePicker
             Left = 548
-            Top = 105
+            Top = 100
             Width = 167
             Height = 24
             Anchors = []
@@ -570,11 +565,10 @@ object Accounting: TAccounting
             ParentShowHint = False
             ShowHint = False
             TabOrder = 2
-            ExplicitTop = 108
           end
           object DateTimePicker2: TDateTimePicker
             Left = 548
-            Top = 149
+            Top = 142
             Width = 167
             Height = 24
             Anchors = []
@@ -582,19 +576,16 @@ object Accounting: TAccounting
             Time = 43018.469732488430000000
             ShowCheckbox = True
             TabOrder = 3
-            ExplicitTop = 154
           end
           object cxGrid1: TcxGrid
             Left = 2
-            Top = 182
+            Top = 175
             Width = 1104
-            Height = 383
+            Height = 370
             Align = alClient
             BorderStyle = cxcbsNone
             TabOrder = 4
             LookAndFeel.Kind = lfFlat
-            ExplicitTop = 188
-            ExplicitHeight = 397
             object cxGrid1TableView1: TcxGridTableView
               Navigator.Buttons.CustomButtons = <>
               DataController.Summary.DefaultGroupSummaryItems = <>
@@ -661,55 +652,50 @@ object Accounting: TAccounting
           end
           object cxComboBox1: TcxComboBox
             Left = 166
-            Top = 13
+            Top = 12
             Anchors = []
             TabOrder = 5
             Text = 'cxComboBox1'
-            ExplicitTop = 15
             Width = 175
           end
           object cxTextEdit1: TcxTextEdit
             Left = 359
-            Top = 13
+            Top = 12
             Anchors = []
             Properties.ReadOnly = True
             TabOrder = 6
             Text = 'cxTextEdit1'
-            ExplicitTop = 15
             Width = 355
           end
           object cxTextEdit3: TcxTextEdit
             Left = 733
-            Top = 13
+            Top = 12
             Anchors = []
             Properties.ReadOnly = True
             TabOrder = 7
             Text = 'cxTextEdit1'
-            ExplicitTop = 15
             Width = 175
           end
           object cxTextEdit4: TcxTextEdit
             Left = 166
-            Top = 59
+            Top = 56
             Anchors = []
             TabOrder = 8
             Text = 'cxTextEdit1'
-            ExplicitTop = 62
             Width = 175
           end
           object cxTextEdit2: TcxTextEdit
             Left = 359
-            Top = 59
+            Top = 56
             Anchors = []
             Properties.ReadOnly = True
             TabOrder = 9
             Text = 'cxTextEdit1'
-            ExplicitTop = 62
             Width = 355
           end
           object cxButton1: TcxButton
             Left = 951
-            Top = 11
+            Top = 10
             Width = 119
             Height = 28
             Anchors = []
@@ -849,7 +835,7 @@ object Accounting: TAccounting
           end
           object Label7: TLabel
             Left = 787
-            Top = 109
+            Top = 104
             Width = 67
             Height = 16
             Margins.Left = 4
@@ -870,11 +856,10 @@ object Accounting: TAccounting
           end
           object cxComboBox2: TcxComboBox
             Left = 923
-            Top = 105
+            Top = 100
             Anchors = []
             TabOrder = 11
             Text = 'cxComboBox1'
-            ExplicitTop = 109
             Width = 175
           end
         end
@@ -886,6 +871,9 @@ object Accounting: TAccounting
         Margins.Bottom = 4
         Caption = 'General Ledger'
         ImageIndex = 1
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 0
         ExplicitHeight = 595
         object GridPanel3: TGridPanel
           Left = 0
@@ -944,6 +932,10 @@ object Accounting: TAccounting
         Margins.Bottom = 4
         Caption = 'Master Data GL'
         ImageIndex = 2
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
       end
     end
   end

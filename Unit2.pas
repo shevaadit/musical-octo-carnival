@@ -106,7 +106,7 @@ var
   I : Integer;
 
 begin
-    cxGrid1TableView1Column2.Caption := cxGrid1TableView1.ColumnCount.ToString();
+    cxGrid1TableView1Column2.Caption := Random(100).ToString();
 end;
 
 end.

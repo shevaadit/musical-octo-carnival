@@ -25,7 +25,7 @@ object Form3: TForm3
     Params.Strings = (
       'Database=SKB_DEV'
       'User_Name=postgres'
-      'Password=skbacmilan'
+      'Password=acmilan'
       'Server=localhost'
       'DriverID=PG')
     Connected = True
