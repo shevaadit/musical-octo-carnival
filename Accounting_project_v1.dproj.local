@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.884,=C:\Users\EDP07\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.164,C:\Users\EDP07\Documents\Embarcadero\Studio\Projects\Accounting_project_v1.dproj=C:\Users\EDP07\Documents\Embarcadero\Studio\Projects\Project2.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.400,=C:\Users\EDP07\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+  </Transactions>  <BT_BuildType>Debug</BT_BuildType>
+</BorlandProject>
